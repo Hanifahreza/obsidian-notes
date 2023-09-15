@@ -1,0 +1,12 @@
+- We want to separate samples into 2 classes
+- We can do this by drawing a 1D line or 2D, 3D, etc hyperplane to separate both classes
+- However this is not always possible as demonstrated by the picture below
+  ![[svm_use_case.png]]
+  - To separate them, we use **kernel trick** in which we bring the samples to a higher dimension with a **kernel**
+  - The usually used kernels are:
+	  - Linear kernel: $K(x_i, x_j) = x_i^T x_j$
+	  - Polynomial kernel: $K(x, y) = (\gamma \langle x, y \rangle + r)^d$
+		  - $\gamma$ is the coefficient of the kernel
+		  - $d$ is the value of the desired higher dimension
+	  - RBF kernel: 
+		  - $K(x, y) = \exp\left(-\frac{\|x - y\|^2}{2\sigma^2}\right)$
