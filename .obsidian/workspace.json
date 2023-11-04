@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "66f91419b997ed13",
+        "id": "a5cf9a4186ad859c",
         "type": "tabs",
         "children": [
           {
-            "id": "6bd4f3f12472ce48",
+            "id": "866aed46c2e95d0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
+                "file": "AI/Shallow Learning/Dimension Reduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc36d613bda97cf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Shallow Learning/Support Vector Machine (SVM).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
+                "file": "AI/Shallow Learning/Dimension Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
+                "file": "AI/Shallow Learning/Dimension Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,15 +137,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Deep Learning/Multi-Layer Perceptron (MLP).md"
+                "file": "AI/Shallow Learning/Dimension Reduction.md"
               }
             }
+          },
+          {
+            "id": "877fbfadde8c5601",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -143,33 +164,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6bd4f3f12472ce48",
+  "active": "866aed46c2e95d0d",
   "lastOpenFiles": [
-    "AI/Deep Learning/Activation Function.md",
+    "AI/Shallow Learning/Kernel Trick.md",
+    "AI/Shallow Learning/Dimension Reduction.md",
+    "AI/Shallow Learning/Support Vector Machine (SVM).md",
+    "Images/hard_margin1.png",
+    "Pasted image 20231102165305.png",
+    "Images/svm margin.png",
+    "AI/Shallow Learning/Clustering.md",
+    "AI/General/Evaluation Methods.md",
+    "AI/Shallow Learning/Logistic Regression.md",
     "AI/Deep Learning/Maximum Log-Likelihood.md",
+    "AI/Shallow Learning/Linear Regression.md",
+    "Images/elbow method.png",
+    "Images/auc=0.png",
+    "Images/auc=0.5.png",
+    "Images/auc=1.png",
+    "Images/auc=1.png",
+    "Images/roc-auc.png",
+    "Images/confusion matrix.png",
+    "K-Modes.md",
+    "AI/General/Preprocessing.md",
+    "AI/General/EDA Techniques.md",
+    "AI/General/Data Science Methodology.md",
+    "AI/General",
+    "AI/Deep Learning/Back Propagation.md",
+    "AI/Deep Learning/Forward Propagation.md",
+    "AI/Deep Learning/Gradient Descent.md",
+    "AI/Deep Learning/Activation Function.md",
+    "AI/CNN/Convolution Operation.md",
+    "AI/CNN/Padding.md",
+    "AI/CNN/Max Pooling.md",
+    "AI/CNN/Fully Connected Layers.md",
+    "AI/Deep Learning/Cross Entropy.md",
+    "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
     "AI/Deep Learning/Vanishing & Exploding Gradient Problem.md",
     "AI/Deep Learning/Weight Initialization.md",
-    "AI/Deep Learning/Gradient Descent.md",
-    "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
-    "AI/Deep Learning/Backpropagation.md",
-    "AI/Deep Learning/Untitled.md",
-    "AI/Deep Learning/Exploding Gradient Problem.md",
-    "AI/Deep Learning/Forward Propagation.md",
-    "AI/Deep Learning/Cross Entropy.md",
-    "Images/mlp.png",
-    "Pasted image 20230913194510.png",
+    "linear combination.md",
+    "AI/CNN",
+    "DSA/Blind 75 Leetcode/Array/Best Time to Buy and Sell Stock.md",
+    "DSA/Blind 75 Leetcode/Array",
+    "DSA/Blind 75 Leetcode",
+    "DSA",
     "StatProb",
-    "AI/Shallow Learning/Logistic Regression.md",
-    "AI/Shallow Learning/Linear Regression.md",
-    "AI/Shallow Learning/Support Vector Machine (SVM).md",
     "AI/General Concepts",
     "AI/Deep Learning",
     "Images",
-    "Images/svm_use_case.png",
-    "AI/Shallow Learning",
-    "AI"
+    "AI/Shallow Learning"
   ]
 }
