@@ -6,8 +6,16 @@
 	- **Stratification**
 	- **Oversampling**
 	- **Undersampling**
-	- **Combined Techniques**
+	- **Combined Technique**
 	- **Cost-Sensitive Learning**
+	- **Weighted Loss**
+## Stratification
+- It doesn't impact anything to the class distribution
+- Its purpose is just to maintain the class distribution when dealing with the data
+### Stratified K-Fold
+- [[K-Fold Validation]], but try to maintain the class distribution when partitioning
+### Stratified Train-Test Split
+- Split the data to train and test dataset with the same class distribution as the original data
 ## Oversampling
 - Make new synthetic samples for the minority class
 ### Random Oversampling
@@ -43,7 +51,43 @@
 - Randomly delete examples in the majority class
 - Same effect as random oversampling
 ### Near-Miss Undersampling
+- Select examples based on the distance of the majority class example to minority class example
+#### NearMiss-1
+- Majority class examples with min avg distance to 3 closest minority class example
+#### NearMiss-2
+- Majority class example with min avg distance to 3 farthest minority class example
+#### NearMiss-3
+- Majority class example with min distance to each minority class example
 ### Condensed Nearest Neighbor (CNN) Rule 
+- Seek subset of samples that result in no loss in model performance
+- Also known as minimal consistent set
 ### Tomek Links Undersampling
+- CNN may allow redundant examples due to random selection
+- CNN may allow examples that are internal to the mass of the distribution, instead of the boundary
+- A Tomek link from $A$ to $B$ is such that:
+	- $A$'s nearest neighbor is $B$
+	- $B$’s nearest neighbor is $A$
+	- $A$ and $B$ belong to different classes
+- Or that is to say, a **cross-class nearest neighbor**
+- Using this, if the example in the minority class is held constant:
+	- We can remove the majority class closest to the minority class
 ### Edited Nearest Neighbors (ENN) Rule
+- Find a sample $x$’s 3 nearest neighbors
+- If $x$ is misclassified due to its 3 nearest neighbors:
+	- If $x$ is majority class
+		- Delete $x$
+	- If $x$ is minority class
+		- Delete $x$’s 3 neighbors
 ### One-Sided Selection (OSS)
+- Tomek Link + CNN
+### Neighborhood Cleaning Rule (NCR)
+- CNN + ENN
+## Combined Technique
+- Pipeline oversampling + undersampling
+- Standard methods:
+	- SMOTE + Tomek
+	- SMOTE + ENN
+## Cost Sensitive Learning
+- TODO
+## Weighted Loss
+- Add more weights to samples in minority class during loss function computation
