@@ -36,6 +36,15 @@
 		- Less affected by outliers
 	- **Centroid Distance**
 		- Distance between the centroid of the two clusters
+#### Pros
+- Produce a dendogram that can give insights on relationship between clusters
+- No need to define how many clusters we want
+- Easy to interpret
+- Good for small to medium-sized datasets
+#### Cons
+- Expensive computation cost ($O(N^3)$)
+- Need to use memory to store dendogram
+- Sensitive to noise and outliers
 ### K-Means Clustering
 #### Algorithm
 - Take $K$ initial points from available data points
@@ -47,13 +56,13 @@
 - **Threshold** criterion (Convergence)
 	- No/Minimum reassignments
 	- No/Minimum change of centroid
-#### Strengths
+#### Pros
 - Easy to understand and implement
 - Efficient complexity: $O(\text{iterations} * K * \text{samples} * \text{dimensions})$
 	- Since $K$, $\text{dimensions}$, and $\text{iterations}$ are usually small, it's considered linear
 - Only applicable when **mean** can be defined
 - Categorical version of K-Means is [[K-Modes]]
-#### Weaknesses
+#### Cons
 - Need to specify number of clusters $K$
 - Sensitive to outliers
 	- This is because it assumes a hypersphere cluster due to the use of an arithmetic mean and the distance to the mean as the definition of the cluster
@@ -64,3 +73,21 @@
 ![[non-linear-separable.png]]
 - To deal with this, we can use [[Kernel Trick]] to bring it to higher dimension
 ![[kernel trick.png]]
+### DBSCAN
+#### Algorithm
+- Scan all data points
+	- If a data point is neighboring $K$ points in radius $\epsilon$, label it as a **core point**
+- Scan all core points
+	- Assign the core point as part of a cluster
+	- Assign all neighboring points in radius $\epsilon$ as part of the cluster
+- Points that are not assigned to a cluster is labeled outlier
+![[dbscan.png]]
+#### Pros 
+- No need to define how many clusters we want
+- Robust to outliers
+- Can identify arbitrary shapes unlike K-Means
+- Can handle clusters with varying density
+#### Cons
+- Sensitive to hyperparameter $K$ and $\epsilon$
+- Not really effective for highly sparse data
+- Expensive computation ($O(N^2)$)

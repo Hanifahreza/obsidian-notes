@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Shallow Learning/Dimension Reduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc36d613bda97cf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Shallow Learning/Support Vector Machine (SVM).md",
+                "file": "AI/Shallow Learning/Boosting.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Shallow Learning/Dimension Reduction.md",
+                "file": "AI/Shallow Learning/Boosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Shallow Learning/Dimension Reduction.md",
+                "file": "AI/Shallow Learning/Boosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Shallow Learning/Dimension Reduction.md"
+                "file": "AI/Shallow Learning/Boosting.md"
               }
             }
           },
@@ -170,24 +158,30 @@
   },
   "active": "866aed46c2e95d0d",
   "lastOpenFiles": [
-    "AI/Shallow Learning/Kernel Trick.md",
-    "AI/Shallow Learning/Dimension Reduction.md",
+    "AI/Shallow Learning/Decision Tree.md",
+    "AI/Shallow Learning/Boosting.md",
+    "AI/Shallow Learning/Bagging.md",
+    "AI/Shallow Learning/Random Forest.md",
+    "AI/Deep Learning/Activation Function.md",
+    "AI/Shallow Learning/Logistic Regression.md",
+    "Images/grad boost classification.png",
+    "Pasted image 20231104170432.png",
+    "Images/stump.png",
+    "AI/General/Entropy.md",
+    "Images/adaboost weight.png",
+    "Images/adaboost weight.png",
+    "AI/Shallow Learning/Clustering.md",
+    "Images/random forest.png",
     "AI/Shallow Learning/Support Vector Machine (SVM).md",
+    "Images/decision tree.png",
+    "Images/dbscan.png",
+    "AI/Shallow Learning/Dimension Reduction.md",
+    "AI/Shallow Learning/Kernel Trick.md",
     "Images/hard_margin1.png",
     "Pasted image 20231102165305.png",
-    "Images/svm margin.png",
-    "AI/Shallow Learning/Clustering.md",
     "AI/General/Evaluation Methods.md",
-    "AI/Shallow Learning/Logistic Regression.md",
     "AI/Deep Learning/Maximum Log-Likelihood.md",
     "AI/Shallow Learning/Linear Regression.md",
-    "Images/elbow method.png",
-    "Images/auc=0.png",
-    "Images/auc=0.5.png",
-    "Images/auc=1.png",
-    "Images/auc=1.png",
-    "Images/roc-auc.png",
-    "Images/confusion matrix.png",
     "K-Modes.md",
     "AI/General/Preprocessing.md",
     "AI/General/EDA Techniques.md",
@@ -196,18 +190,12 @@
     "AI/Deep Learning/Back Propagation.md",
     "AI/Deep Learning/Forward Propagation.md",
     "AI/Deep Learning/Gradient Descent.md",
-    "AI/Deep Learning/Activation Function.md",
     "AI/CNN/Convolution Operation.md",
     "AI/CNN/Padding.md",
     "AI/CNN/Max Pooling.md",
     "AI/CNN/Fully Connected Layers.md",
-    "AI/Deep Learning/Cross Entropy.md",
     "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
-    "AI/Deep Learning/Vanishing & Exploding Gradient Problem.md",
-    "AI/Deep Learning/Weight Initialization.md",
-    "linear combination.md",
     "AI/CNN",
-    "DSA/Blind 75 Leetcode/Array/Best Time to Buy and Sell Stock.md",
     "DSA/Blind 75 Leetcode/Array",
     "DSA/Blind 75 Leetcode",
     "DSA",
