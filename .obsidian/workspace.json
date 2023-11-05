@@ -11,15 +11,24 @@
             "id": "8f56f96228851977",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "27341ff09d321d5a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/General/Imbalanced Classification.md",
+                "file": "AI-ML/CNN/ResNet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/General/Imbalanced Classification.md",
+                "file": "AI-ML/CNN/ResNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/General/Imbalanced Classification.md",
+                "file": "AI-ML/CNN/ResNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/General/Imbalanced Classification.md"
+                "file": "AI-ML/CNN/ResNet.md"
               }
             }
           },
@@ -156,34 +165,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f56f96228851977",
+  "active": "27341ff09d321d5a",
   "lastOpenFiles": [
-    "AI/Shallow Learning/Naive Bayes.md",
-    "AI/General/Imbalanced Classification.md",
-    "AI/CNN/Padding.md",
-    "AI/CNN/Max Pooling.md",
-    "AI/CNN/Fully Connected Layers.md",
-    "AI/CNN/Convolution Operation.md",
-    "AI/Deep Learning/Weight Initialization.md",
-    "AI/Deep Learning/Vanishing & Exploding Gradient Problem.md",
-    "AI/Deep Learning/Multi-Layer Perceptron (MLP).md",
-    "AI/Deep Learning/Gradient Descent.md",
-    "AI/Deep Learning/Forward Propagation.md",
-    "AI/Deep Learning/Back Propagation.md",
-    "AI/Deep Learning/Activation Function.md",
-    "AI/Shallow Learning/Support Vector Machine (SVM).md",
-    "AI/Shallow Learning/Random Forest.md",
-    "AI/Shallow Learning/Logistic Regression.md",
-    "AI/Shallow Learning/Linear Regression.md",
-    "AI/Shallow Learning/Kernel Trick.md",
-    "AI/Shallow Learning/Dimension Reduction.md",
-    "AI/Shallow Learning/Boosting.md",
-    "AI/Shallow Learning/Bagging.md",
-    "AI/General/Similarity & Distance Measurements.md",
-    "AI/General/Regularization.md",
-    "AI/General/Maximum Log-Likelihood.md",
-    "AI/General/Preprocessing.md",
-    "AI/General/K-Fold Validation.md",
+    "AI-ML/CNN/Mask R-CNN.md",
+    "AI-ML/CNN/Faster R-CNN.md",
+    "AI-ML/CNN/YOLO.md",
+    "AI-ML/CNN/EfficientNet.md",
+    "AI-ML/CNN/SqueezeNet.md",
+    "AI-ML/CNN/MobileNet.md",
+    "AI-ML/CNN/DenseNet.md",
+    "AI-ML/CNN/ResNet.md",
+    "AI-ML/CNN/InceptionNet.md",
+    "AI-ML/CNN/AlexNet.md",
+    "AI-ML/CNN/LeNet.md",
+    "AI-ML/CNN/VGGNet.md",
+    "AI-ML/Shallow Learning/Dimension Reduction.md",
+    "AI-ML/Deep Learning/Hyperparameter Tuning.md",
+    "Sequence Neural Network/GPT.md",
+    "AI-ML/General/H.md",
+    "Sequence Neural Network/Word2Vec.md",
+    "Sequence Neural Network/BERT.md",
+    "Sequence Neural Network/ELMo.md",
+    "Sequence Neural Network/Transformer.md",
+    "Sequence Neural Network/Attention Mechanism.md",
+    "Sequence Neural Network/LSTM.md",
+    "Sequence Neural Network/GRU.md",
+    "Sequence Neural Network/BPTT.md",
+    "Sequence Neural Network/Seq2Seq.md",
+    "Sequence Neural Network/Vec2Seq.md",
+    "Sequence Neural Network",
+    "Linear Algebra",
     "Images/bayes visual.png",
     "Images/candy soda venn.png",
     "Images/normal distribution variation.png",
@@ -195,14 +206,12 @@
     "Images/stump.png",
     "Images/adaboost weight.png",
     "Images/adaboost weight.png",
-    "AI/General",
-    "AI/CNN",
+    "AI-ML/General",
+    "AI-ML/CNN",
     "DSA/Blind 75 Leetcode/Array",
     "DSA/Blind 75 Leetcode",
     "DSA",
     "StatProb",
-    "AI/General Concepts",
-    "AI/Deep Learning",
-    "Images"
+    "AI/General Concepts"
   ]
 }

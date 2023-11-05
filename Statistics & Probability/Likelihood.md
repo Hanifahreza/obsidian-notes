@@ -1,5 +1,5 @@
 - Likelihood, denoted as $L(\theta | x)$, is a function of the model parameters $(\theta$) given the observed data $(x)$.
-- It is often expressed as the [[PDF]] or [[PMF]] of the data, 
+- It is often expressed as the [[Probability Density Function|PDF]] or [[Probability Mass Function|PMF]] of the data, 
 	- With the model parameters treated as variables
 - Likelihood measures
 	- How well the model with specific parameter values, explains the observed data

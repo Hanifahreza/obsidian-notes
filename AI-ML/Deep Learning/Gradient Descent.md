@@ -5,39 +5,38 @@
 	- $w' = w - \alpha \frac{\partial L}{\partial w}$
 		- $w'$ is the new updated weight
 		- $w$ is the old weight
-		- $\alpha$ is the [[Learning Rate]]
+		- $\alpha$ is the learning rate
 		- $\frac{\partial L}{\partial w}$ is the gradient of the loss function $L$ w.r.t weight $w$ 
-	
 - There are three main types of gradient descent based on **how they calculate the loss**
 ## Gradient Descent
    - Include all samples for calculating loss
 	   - $L = \sum_{i=1}^{K} y_i-\hat{y_i}$
-### Pros:
+### Pros
    - Guaranteed convergence
    - Smooth convergence (straight to the optimal point)
-### Cons:
+### Cons
    - This will be slow for a huge data
    - Memory intensive since all the data must be stored in RAM
 ## Stochastic Gradient Descent
 - Include only one sample for calculating loss
 	- $L = y_i-\hat{y_i}$ 
-### Pros:
+### Variants
+TODO
+### Pros
    - Faster convergence
    - Memory efficient
-### Cons:
+### Cons
 - It will not go straight to the optimal point, a lot of zigzags
-- Not guaranteed to be convergent
-		
+- Not guaranteed to be convergent	
 ## Mini-Batch Stochastic Gradient Descent
 - Include N samples from K samples for calculating loss 
    - $L = \sum_{i=1}^{N} y_i-\hat{y_i}$  	   
-### Pros:
+### Pros
    - Balance between speed and accuracy of convergence
    - Can be parallelized by processing multiple batches concurrently
-### Cons:
+### Cons
    - Not guaranteed to be convergent
    - Requires tuning for the best batch size
-
 ## Momentum
 - **Momentum** improves SGD and Mini-batch SGD convergence speed by adding velocity ($v$) and momentum ($\gamma$):
 	- Initialize $v = 0$
