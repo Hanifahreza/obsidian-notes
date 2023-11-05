@@ -1,0 +1,8 @@
+- It's a supervised algorithm
+- When we want to predict the class of a point:
+	- Collect $K$ nearest neighbors of the point using a [[Similarity & Distance Measurements#Distance|distance measurement]] as the basis
+	- Take the class of the majority in the $K$ nearest neighbors as the point's predicted class
+		- If it's regression, take the average of the target features instead
+- Usually, the best value for $K$ is:
+	- $\sqrt n$ with $n$ is the total number of data points
+	- Odd value if the number of classes is even

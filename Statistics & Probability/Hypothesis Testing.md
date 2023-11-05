@@ -1,0 +1,11 @@
+- Make a **hypothesis**
+	- **Null Hypothesis** ($H_0$): Hypothesis that says there is **no difference** between A and B
+	- **Alternative Hypothesis**: Hypothesis that says there **is a difference** between A and B (Opposite of $H_0$)
+- Test if the hypothesis is **rejected** or **fail to be rejected** by conducting more experiments
+## P-Value
+- We can quantify how **confident** we are with our decision regarding a hypothesis with **p-value**
+- p-value's range is $[0, 1]$
+- It tells the **rate of False Positives** from repeated experiments 
+	- This means the **closer** p-value to **0**, the more **confident** we are
+- Usually, $p = 0.05$ is used as a threshold for confidence
+- We can adjust the threshold depending on the needs

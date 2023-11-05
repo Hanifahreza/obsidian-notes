@@ -40,10 +40,10 @@
 - The prediction is the sum of the initial average with all of the predicted residuals from all trees
 ### Classification
 #### Training
-- Create a single leaf with the $log(\text{odds}) = log(n_{yes}/n_{no})$ as the initial prediction value $y$ for all samples
+- Create a single leaf with the [[Odds & Logits#Logit|Logit Function]] $log(\text{odds}) = log(n_{yes}/n_{no})$ as the initial prediction value $y$ for all samples
 	- If it's multi-class, do this for every class
-- Convert the prediction with [Logistic Function](Logistic Regression#Logistic Function) to probability
-	- If it's multi-class, use [Softmax Function](Activation Function#Softmax) with inputs from all classes' trees
+- Convert the prediction with [[Activation Function#Sigmoid|Sigmoid Function]] to probability
+	- If it's multi-class, use [[Activation Function#Softmax|Softmax Function]] with inputs from all classes' trees
 - Create a new feature called `residual` ($r$) as $y-\hat{y}$ with `yes = 1` and `no = 0`
 - Create a tree using the technique in [[Decision Tree]] to predict `residual` ($\hat{r}$) with `max_deph` usually in $[8, 32]$ 
 - For each leafs of the newly created tree
@@ -53,6 +53,9 @@
 - Update the prediction for each sample as
 	- $y' = y + \alpha \hat{r}$
 		- $\alpha$ is the learning rate
+	- Then, convert it to 
+- Convert the prediction with [[Odds & Logits#Logit|Logit Function]] to probability
+	- If it's multi-class, use [[Activation Function#Softmax|Softmax Function]] with inputs from all classes' trees
 - Repeat making tree with the $y'$ until the `max_tree` is reached OR there's no improvement in the residuals
 #### Predict
 - The output is at first the initial prediction
@@ -114,14 +117,14 @@
 	- If it's negative, prune the branch and repeat the check for the root of the branch
 	- Else, let it and its root go
 - For all leafs:
-	- Compute the output value as 
-		- $\hat{y} = \frac{\sum r}{\sum [(\text{prev prob})_i (1-(\text{prev prob})_i)] + \lambda}$
+	- Compute the output odd prediction value as 
+		- $\hat{y}_{odd} = \frac{\sum r}{\sum [(\text{prev prob})_i (1-(\text{prev prob})_i)] + \lambda}$
 - For all samples:
 	- Update the prediction with
-		- Transform the previous probability prediction to log odds
+		- Transform the previous probability prediction to odd with [[Odds & Logits#Logit|Logit Function]]
 			- $y_{odd} = log(\frac{y}{1-y})$
-		- $y_{odd}' = y + \epsilon \hat{y}$
-		- Convert $y_{odd}'$ to probability prediction $y'$ with [Logistic Function](Logistic Regression#Logistic Function)
+		- $y_{odd}' = y_{odd} + \epsilon \hat{y}_{odd}$
+		- Convert $y_{odd}'$ to probability prediction $y'$ with [[Activation Function#Sigmoid|Sigmoid Function]]
 - Repeat making tree with the new $y'$ with
 #### Predict
 - The output is at first the initial probability prediction of $log(\frac{0.5}{1-0.5}) = 0$

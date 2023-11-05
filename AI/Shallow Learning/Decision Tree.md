@@ -1,11 +1,11 @@
 ![[decision tree.png]]
 - We want to create a binary tree that can assign a data point to a class based on conditions
 - We need an algorithm to learn what are the suitable condition for each node that **maximize information gain**
-- This means we need to **minimize [[Entropy]]** or [Gini Index](Entropy#Gini Index) for each node
+- This means we need to **minimize [[Entropy]]** or [[Entropy#Gini Index|Gini Index]] for each node
 ## Classifier
 - Loop all features to get what feature to use as the condition for the current node
 - Loop all unique values in the feature to determine which value to use as the condition
-- Compute the [[Entropy]] or [Gini Index](Entropy#Gini Index) if we make a decision boundary based on the value ($x_i \leq x_{ij}$ for example)
+- Compute the [[Entropy]] or [[Entropy#Gini Index|Gini Index]] if we make a decision boundary based on the value ($x_i \leq x_{ij}$ for example)
 - Continue the above steps with recursion to the left and right child until reaching `max_depth` or the samples in the node is $\leq$ `min_samples_split`
 - When we reach the leaf node, decides what class it belongs by taking the mode of the samples' class
 ## Regressor

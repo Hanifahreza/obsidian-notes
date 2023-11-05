@@ -2,11 +2,11 @@
 	- N is the size of the collection
 	- $x_i$ is the sample at index $i$ 
 	- $y_i$ is the label of sample $x_i$ 
-- We want to build a model $f_{w,b}(x)$ as a [[linear combination]] of features of example $x$:  
-	> 								$f_{w,b}(x) = wx + b$ 
-	- $w$ is D-dimensional [[weight]] vector
-	- $b$ is [[bias]] 
-	- $f_{w,b}(x)$ means $f$ is parameterized by parameter $w$ and $b$
+- We want to build a model $f_{w,b}(x)$ as a [[Linear Combination]] of features of example $x$:  
+	- $f_{w,b}(x) = wx + b$ 
+		- $w$ is D-dimensional weight vector
+		- $b$ is bias
+		- $f_{w,b}(x)$ means $f$ is parameterized by parameter $w$ and $b$
 - To build the model, we must find the optimal parameters, i.e, $w$ and $b$
 - To find the optimal model, we must have $w$ and $b$ such that the MSE loss function is minimal:
 	>	$\arg\min_{w, b} L(f_{w,b}(x), y) = \arg\min_{w, b}\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$

@@ -6,8 +6,6 @@
 - These hidden layers of course have their own weights
 - So the more the hidden layers, the more the weights, the more complex is the model
 - A one-layered MLP can be written as:
-  
 > 	$H = \sigma(XW^{(1)} + b^{(2)})$
 		$O = HW^{(2)} + b^{(2)}$	
-				
 - Where $\sigma$ is an activation function

@@ -3,15 +3,7 @@
 	- Intra-cluster distance is minimized
 	- Inter-cluster distance is maximized
 - This task is **unsupervised**
-## Measures of Distance / Similarity
-- Set Similarity
-	- Jaccard: $J(A, B) = \frac{|A \cap B|}{|A \cup B|}$
-- Data Points
-	- Euclidean: $E(A, B) = \sqrt{\sum_{i=1}^{n}(A_i - B_i)^2}$
-	- Manhattan: $M(A, B) = \sum_{i=1}^{n} |A_i - B_i|$
-		- Less sensitive to outliers
-	- Cosine: $C(A, B) = \frac{A \cdot B}{\|A\| \cdot \|B\|}$
-		- Often used for text
+- Use one of the [[Similarity & Distance Measurements#Distance|distance measurement]] to determine distance
 ## Algorithms
 ### Hierarchical Agglomerative
 #### Algorithm

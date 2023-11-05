@@ -1,0 +1,5 @@
+- Divide a data into $K$ partitions
+- Repeat until all partitions got a chance to be train and test dataset
+	- Use $x$ partitions for training a model and $y$ partitions to test the model
+- Aggregate the results to know the overall performance of the model
+- Can be used to compare different models or [[Hyperparameter Tuning]]

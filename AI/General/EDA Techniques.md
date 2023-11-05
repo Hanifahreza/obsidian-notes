@@ -22,14 +22,19 @@
 - Variance & STD
 	- Variance: 
 		- Average of the squared deviation of the observations from the mean
-		- $\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2$
-	- STD:
+		- For population, the formula is
+			- $\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2$
+		- For sample, the formula is
+			-  $\sigma^2 = \frac{1}{N-1} \sum_{i=1}^{N} (x_i - \mu)^2$
+	- STD: ^516c1d
 		- Square root of variance
+		- Easier to interpret than variance since it's on the same scale with the original data
 	- If variance/std is high, then the dataset has large variability
 - Outliers
 	- An observation that lies an abnormal distance from other values in a random sample from a population
 	- Outliers are samples that are:
-		- $< Q_1-1.5*IQR$ or $> Q_3 + 1.5*IQR$
+		- $x_i < Q_1-1.5*IQR$ or 
+		- $x_i > Q_3 + 1.5*IQR$
 ### Skewness
 - Measure of asymmetry of the data around the mean
 ![[skew.png]]

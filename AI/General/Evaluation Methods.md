@@ -39,11 +39,11 @@
 ### Silhouette Method
 - It's a method to measure how similar a point to its cluster compared to how different it is to its cluster's neighbor's points
 - First, compute the similarity $a$ of the point $i$ to its comrades in the cluster $C_i$
-> $a(i) = \frac{1}{|C_i| - 1} \sum_{j \in C_i, j \neq i} d(i, j)$
+	- $a(i) = \frac{1}{|C_i| - 1} \sum_{j \in C_i, j \neq i} d(i, j)$
 - Then, compute the difference $b$ between $i$ and points in the closest neighboring cluster $C_k$
-  > $b(i) = \min_{k \neq i} \frac{1}{|C_k|} \sum_{j \in C_k} d(i, j)$
+	- $b(i) = \min_{k \neq i} \frac{1}{|C_k|} \sum_{j \in C_k} d(i, j)$
 - Finally, compute the score
->$S(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))}$
+	- $S(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))}$
 - The overall Silhouette score for the clustering is the average Silhouette score of all data points in the dataset
 - It falls within the range $[-1, 1]$
 	- A high Silhouette score (close to 1) indicates that the data points are well-clustered, and each data point is closer to members of its own cluster than to those of other clusters
@@ -57,4 +57,4 @@
 ### Within-Cluster Sum of Squares (WCSS)
 - It measures the compactness or tightness of clusters
 - For all points in each cluster, compute the square distance with the mean-centroid of each's cluster
-> $WCSS = \sum_{i=1}^{k} \sum_{j=1}^{n_i} (x_{ij} - \mu_i)^2$
+	- $WCSS = \sum_{i=1}^{k} \sum_{j=1}^{n_i} (x_{ij} - \mu_i)^2$
