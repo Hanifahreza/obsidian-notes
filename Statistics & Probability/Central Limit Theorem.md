@@ -1,6 +1,6 @@
 ## Statement 
 - As the sample size $n$ increases, 
-	- The sampling distribution of the sample mean $\bar{x}$ approaches a normal distribution
+	- The sampling distribution of the sample mean $\bar{x}$ approaches a [[Normal Distribution]]
 	- Regardless of the shape of the population distribution
 ## Key Assumptions 
   - The random variables in the sample must be independent

@@ -1,14 +1,14 @@
 ## Why EDA?
-• We need to familiarize with a new dataset: 
-	• How many **attributes**, and of what kind?
-	• Are there any **missing values**?
-	• How are the values **distributed**?
-	• Is our dataset **imbalanced**? 
+- We need to familiarize with a new dataset: 
+	- How many **attributes**, and of what kind?
+	- Are there any **missing values**?
+	- How are the values **distributed**?
+	- Is our dataset **imbalanced**? 
 
-• Hunting for something interesting:
-	• Are there any **outliers**?
-	• Are there any **correlations** between attributes?
-	• How do the **distributions** compare between **different samples**?
+- Hunting for something interesting:
+	- Are there any **outliers**?
+	- Are there any **correlations** between attributes?
+	- How do the **distributions** compare between **different samples**?
 ## Descriptive Statistics
 ### Central Tendency
 - Mean, Median, Mode

@@ -10,13 +10,18 @@
 - Summarize data
 - Generalize data
 - Make new attribute from the given ones
-- Normalization
-	- Min-Max
-		- Change the range of the data to $[0, 1]$
-		- $x' = \frac{x - \min(X)}{\max(X) - \min(X)}$
-	- StandardScaler
-		- Use z-score to make the mean = 0 and std = 1
-		- $x' = \frac{x - \mu}{\sigma}$, $\sigma$: std, $\mu$: mean 
+![[data normalization.png]]
+- Normalization (Min-Max Scaling)
+	- Change the range of the data to $[0, 1]$
+	$$x' = \frac{x - \min(X)}{\max(X) - \min(X)}$$
+	- Sensitive to outliers
+- Standardization (Standard Scaling) ^ba3b7c
+	- Use z-score such that the transformed data has
+		- mean = 0  
+		- std = 1
+	- $$x' = \frac{x - \mu}{\sigma}$$
+		- $\sigma$ is std
+		- $\mu$ is mean 
 - Data Selection
 	- Pick relevant rows or columns from the dataset
 	- Pick columns with high correlation with target variable 
