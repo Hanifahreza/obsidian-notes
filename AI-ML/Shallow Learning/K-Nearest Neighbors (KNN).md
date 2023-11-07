@@ -6,3 +6,4 @@
 - Usually, the best value for $K$ is:
 	- $\sqrt n$ with $n$ is the total number of data points
 	- Odd value if the number of classes is even
+	- Look for the optimal $K$ with [[Evaluation Methods#Internal Measures (Clusters)|Elbow method]]

@@ -40,6 +40,7 @@
 ### K-Means Clustering
 #### Algorithm
 - Take $K$ initial points from available data points
+	- Look for the best $K$ with [[Evaluation Methods#Internal Measures (Clusters)|Elbow method]]
 - These are now the cluster means/centroids
 - For each non-centroid point, compute the distance with each cluster mean 
 - Every point is then assigned to the nearest cluster mean

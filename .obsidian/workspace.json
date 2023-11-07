@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16037c382c35e12f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI-ML/CNN/Convolution Operation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e397c45274f83640",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-ML/CNN/MobileNet.md",
+                "file": "AI-ML/CNN/VGGNet.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI-ML/CNN/Convolution Operation.md",
+                "file": "AI-ML/CNN/VGGNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI-ML/CNN/Convolution Operation.md",
+                "file": "AI-ML/CNN/VGGNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI-ML/CNN/Convolution Operation.md"
+                "file": "AI-ML/CNN/VGGNet.md"
               }
             }
           },
@@ -168,28 +156,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "16037c382c35e12f",
+  "active": "e397c45274f83640",
   "lastOpenFiles": [
-    "AI-ML/CNN/EfficientNet.md",
+    "AI-ML/CNN/Image Data Augmentation.md",
+    "AI-ML/CNN/VGGNet.md",
+    "AI-ML/CNN/Faster R-CNN.md",
+    "AI-ML/Deep Learning/Few-Shot Learning.md",
+    "AI-ML/CNN/YOLO.md",
+    "Images/non-max-supp.png",
+    "Images/yolo bbox.png",
+    "Images/yolo arch.png",
+    "Images/faster r-cnn performance.png",
+    "AI-ML/CNN/Fast R-CNN.md",
+    "Images/rpn.png",
+    "AI-ML/CNN/R-CNN.md",
+    "Images/faster r-cnn.png",
+    "Images/fast r-cnn bottleneck.png",
+    "Images/fast r-cnn.png",
+    "AI-ML/CNN/Fast R-CNN",
+    "Images/r-cnn2.png",
+    "Images/R-CNN.png",
     "AI-ML/CNN/MobileNet.md",
+    "AI-ML/General/Evaluation Methods.md",
+    "AI-ML/Shallow Learning/K-Nearest Neighbors (KNN).md",
+    "AI-ML/Shallow Learning/Clustering.md",
+    "AI-ML/General/Similarity & Distance Measurements.md",
+    "AI-ML/CNN/Convolution Operation.md",
+    "AI-ML/CNN/EfficientNet.md",
     "AI-ML/Deep Learning/Hyperparameter Tuning.md",
-    "Images/mbconv2.png",
-    "Images/mbconv1.png",
-    "Images/compound scaling.png",
     "AI-ML/CNN/Padding.md",
-    "Images/efficientnet performance.png",
-    "Images/efficientnet scaling.png",
-    "Images/efficientnet.png",
-    "Images/depth-wise conv.png",
-    "Images/mobilenet.png",
-    "Pasted image 20231106210302.png",
     "AI-ML/CNN/ResNet.md",
     "AI-ML/CNN/SqueezeNet.md",
-    "Images/resnet bottleneck.png",
-    "AI-ML/CNN/VGGNet.md",
     "AI-ML/CNN/InceptionNet (GoogleNet).md",
-    "AI-ML/CNN/Convolution Operation.md",
-    "AI-ML/CNN/Image Data Augmentation.md",
     "AI-ML/CNN/AlexNet.md",
     "AI-ML/CNN/LeNet.md",
     "AI-ML/Deep Learning/Quantization.md",
@@ -198,14 +196,6 @@
     "AI-ML/Deep Learning/Risk.md",
     "Statistics & Probability/Central Limit Theorem.md",
     "AI-ML/Deep Learning/Learning Rate Scheduling.md",
-    "AI-ML/Deep Learning/Optimizers.md",
-    "AI-ML/Deep Learning/Gradient Descent.md",
-    "AI-ML/Deep Learning/Back Propagation.md",
-    "Pasted image 20231106093201.png.md",
-    "AI-ML/General/Preprocessing.md",
-    "AI-ML/Deep Learning/Batch Normalization.md",
-    "AI-ML/Deep Learning/Vanishing & Exploding Gradient Problem.md",
-    "Sequence Neural Network/Sequences.md",
     "Sequence Neural Network",
     "Linear Algebra",
     "Statistics & Probability",
@@ -213,7 +203,6 @@
     "AI-ML/CNN",
     "DSA/Blind 75 Leetcode/Array",
     "DSA/Blind 75 Leetcode",
-    "DSA",
-    "StatProb"
+    "DSA"
   ]
 }
