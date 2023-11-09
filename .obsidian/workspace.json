@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "175fc5557146d22d",
+        "id": "751617915a6f8ad1",
         "type": "tabs",
         "children": [
           {
-            "id": "e397c45274f83640",
+            "id": "821ed563c064b54f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI-ML/Deep Learning/Activation Function.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI-ML/Deep Learning/Activation Function.md",
+                "file": "Images/opencv/Pasted image 20231108211010.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI-ML/Deep Learning/Activation Function.md",
+                "file": "Images/opencv/Pasted image 20231108211010.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI-ML/Deep Learning/Activation Function.md"
+                "file": "Images/opencv/Pasted image 20231108211010.png"
               }
             }
           },
@@ -158,25 +154,31 @@
   },
   "active": "d1844fc5ddb7b6b4",
   "lastOpenFiles": [
-    "Images/tanh decision.png",
-    "Images/tanh.png",
-    "Images/relu decision.png",
-    "Images/relu.png",
+    "AI-ML/Image Processing/OpenCV.md",
+    "Images/opencv/Pasted image 20231108210831.png",
+    "Images/opencv/Pasted image 20231109113942.png",
+    "Images/opencv/Pasted image 20231109113907.png",
+    "Images/opencv/Pasted image 20231109113847.png",
+    "Images/opencv/Pasted image 20231109113111.png",
+    "Images/opencv/Pasted image 20231109111414.png",
+    "Images/opencv/Pasted image 20231109095758.png",
+    "Images/opencv/Pasted image 20231109095749.png",
+    "Images/opencv/Pasted image 20231109095739.png",
+    "Images/opencv/Pasted image 20231109095205.png",
+    "Images/opencv",
+    "Images/opencv",
+    "AI-ML/Deep Learning/Activation Function.md",
+    "AI-ML/Image Processing",
+    "AI-ML/Untitled.md",
+    "AI-ML/Image Processing",
     "Statistics & Probability/Odds & Logits.md",
     "AI-ML/CNN/VGGNet.md",
     "AI-ML/CNN/Image Data Augmentation.md",
     "AI-ML/CNN/Faster R-CNN.md",
     "AI-ML/Deep Learning/Few-Shot Learning.md",
     "AI-ML/CNN/YOLO.md",
-    "Images/non-max-supp.png",
-    "Images/yolo bbox.png",
-    "Images/yolo arch.png",
-    "Images/faster r-cnn performance.png",
     "AI-ML/CNN/Fast R-CNN.md",
-    "Images/rpn.png",
     "AI-ML/CNN/R-CNN.md",
-    "Images/faster r-cnn.png",
-    "Images/fast r-cnn bottleneck.png",
     "AI-ML/CNN/Fast R-CNN",
     "AI-ML/CNN/MobileNet.md",
     "AI-ML/General/Evaluation Methods.md",
@@ -192,17 +194,10 @@
     "AI-ML/CNN/InceptionNet (GoogleNet).md",
     "AI-ML/CNN/AlexNet.md",
     "AI-ML/CNN/LeNet.md",
-    "AI-ML/Deep Learning/Quantization.md",
-    "Image Processing/Fundamentals.md",
     "Image Processing",
-    "AI-ML/Deep Learning/Risk.md",
-    "Sequence Neural Network",
+    "AI-ML/Sequence Neural Network",
     "Linear Algebra",
     "Statistics & Probability",
-    "AI-ML/General",
-    "AI-ML/CNN",
-    "DSA/Blind 75 Leetcode/Array",
-    "DSA/Blind 75 Leetcode",
-    "DSA"
+    "AI-ML/General"
   ]
 }
