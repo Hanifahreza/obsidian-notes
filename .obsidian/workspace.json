@@ -156,8 +156,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4fd5b671461f2b2",
+  "active": "d1844fc5ddb7b6b4",
   "lastOpenFiles": [
+    "Images/best-path-decod.png",
+    "Images/ctc loss.png",
+    "Images/ctc problem.png",
+    "Images/ctc pipeline.png",
     "AI-ML/Shallow Learning/Boosting.md",
     "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md",
     "Images/catboost stub.png",
@@ -170,10 +174,7 @@
     "Images/image patching vit.png",
     "Images/ViT.png",
     "AI-ML/Sequence Neural Network/Transformer.md",
-    "Images/image patching vit.png",
     "AI-ML/Sequence Neural Network/BERT.md",
-    "Images/segment embedding.png",
-    "Images/bert 2.png",
     "AI-ML/Sequence Neural Network/Seq2Seq.md",
     "Untitled.md",
     "AI-ML/Sequence Neural Network/GPT.md",
@@ -194,7 +195,6 @@
     "AI-ML/CNN/Convolution Operation.md",
     "AI-ML/CNN/ResNet.md",
     "AI-ML/Deep Learning/Vanishing & Exploding Gradient Problem.md",
-    "AI-ML/Deep Learning/Learning Rate Decay.md",
     "Images/opencv",
     "Images/opencv",
     "AI-ML/Image Processing",
