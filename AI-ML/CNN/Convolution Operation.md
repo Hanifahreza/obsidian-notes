@@ -10,7 +10,9 @@
 - It's actually not necessary for the kernel sliding window to only move by 1 pixel at a time
 - We can configure how many pixels to slide with **Stride**
 ## Translation Equivariance
-TODO
+- Convolution satisfies **translation equivariance** because it preserves information about the location of input features
+- This means, if **translation** is done onto the **input**, the **output** will also **translates the same way**
+![[equivariance.png]]
 ## Benefits
 - This operation is used to **identify edges feature** from an image
 ![[edges_conv.png]]

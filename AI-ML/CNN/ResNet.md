@@ -13,6 +13,8 @@
 - ResNet introduces **skip connections**, also known as residual connections
 - These connections bypass one or more layers and allow the gradient to flow directly through the network when there's an indication [[Vanishing & Exploding Gradient Problem#Vanishing Gradient|vanishing gradient]]
 - They enable the training of extremely deep networks without suffering from the vanishing gradient problem.
+![[skip connection app.png]]
+- When there's a layer that's not learning and blocking the next layers, we can just skip it with the connection
 ### Residual Blocks
 ![[residual block.png]]
 - ResNet uses a basic building block called the **residual block**:

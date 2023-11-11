@@ -1,3 +1,4 @@
+- It can handle [[Data Imputation|missing values]]
 ## Bootstrapping
 - Make $n$ new datasets by randomly selecting rows from the original dataset (duplicate allowed)
 - For each new datasets, create tree based on $k$  features of all available features

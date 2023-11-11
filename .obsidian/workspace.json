@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "751617915a6f8ad1",
+        "id": "f573d4d6d61fedfa",
         "type": "tabs",
         "children": [
           {
-            "id": "821ed563c064b54f",
+            "id": "d4fd5b671461f2b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "activ",
+                "query": "sos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/opencv/Pasted image 20231108211010.png",
+                "file": "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/opencv/Pasted image 20231108211010.png",
+                "file": "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/opencv/Pasted image 20231108211010.png"
+                "file": "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md"
               }
             }
           },
@@ -152,52 +156,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1844fc5ddb7b6b4",
+  "active": "d4fd5b671461f2b2",
   "lastOpenFiles": [
-    "AI-ML/Image Processing/OpenCV.md",
-    "Images/opencv/Pasted image 20231108210831.png",
-    "Images/opencv/Pasted image 20231109113942.png",
-    "Images/opencv/Pasted image 20231109113907.png",
-    "Images/opencv/Pasted image 20231109113847.png",
-    "Images/opencv/Pasted image 20231109113111.png",
-    "Images/opencv/Pasted image 20231109111414.png",
-    "Images/opencv/Pasted image 20231109095758.png",
-    "Images/opencv/Pasted image 20231109095749.png",
-    "Images/opencv/Pasted image 20231109095739.png",
-    "Images/opencv/Pasted image 20231109095205.png",
-    "Images/opencv",
-    "Images/opencv",
-    "AI-ML/Deep Learning/Activation Function.md",
-    "AI-ML/Image Processing",
-    "AI-ML/Untitled.md",
-    "AI-ML/Image Processing",
-    "Statistics & Probability/Odds & Logits.md",
-    "AI-ML/CNN/VGGNet.md",
-    "AI-ML/CNN/Image Data Augmentation.md",
-    "AI-ML/CNN/Faster R-CNN.md",
-    "AI-ML/Deep Learning/Few-Shot Learning.md",
-    "AI-ML/CNN/YOLO.md",
-    "AI-ML/CNN/Fast R-CNN.md",
-    "AI-ML/CNN/R-CNN.md",
-    "AI-ML/CNN/Fast R-CNN",
-    "AI-ML/CNN/MobileNet.md",
-    "AI-ML/General/Evaluation Methods.md",
-    "AI-ML/Shallow Learning/K-Nearest Neighbors (KNN).md",
-    "AI-ML/Shallow Learning/Clustering.md",
+    "AI-ML/Shallow Learning/Boosting.md",
+    "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md",
+    "Images/catboost stub.png",
+    "Images/catboost sort.png",
+    "AI-ML/General/Categorical Encoding.md",
+    "AI-ML/Sequence Neural Network/ViT.md",
+    "Images/target encoding.png",
+    "Images/label encoding.png",
+    "Images/one-hot.png",
+    "Images/image patching vit.png",
+    "Images/ViT.png",
+    "AI-ML/Sequence Neural Network/Transformer.md",
+    "Images/image patching vit.png",
+    "AI-ML/Sequence Neural Network/BERT.md",
+    "Images/segment embedding.png",
+    "Images/bert 2.png",
+    "AI-ML/Sequence Neural Network/Seq2Seq.md",
+    "Untitled.md",
+    "AI-ML/Sequence Neural Network/GPT.md",
+    "AI-ML/Sequence Neural Network/Attention.md",
+    "AI-ML/Sequence Neural Network/LSTM.md",
     "AI-ML/General/Similarity & Distance Measurements.md",
+    "metr.md",
+    "AI-ML/NLP/Word2Vec.md",
+    "AI-ML/Sequence Neural Network/Deep RNN.md",
+    "AI-ML/NLP",
+    "AI-ML/Sequence Neural Network/GRU.md",
+    "AI-ML/Sequence Neural Network/RNN.md",
+    "AI-ML/Sequence Neural Network/Sequences.md",
+    "AI-ML/Sequence Neural Network/Autoregression.md",
+    "AI-ML/Deep Learning/Back Propagation.md",
+    "AI-ML/Deep Learning/Batch Normalization.md",
+    "AI-ML/CNN/Pooling.md",
     "AI-ML/CNN/Convolution Operation.md",
-    "AI-ML/CNN/EfficientNet.md",
-    "AI-ML/Deep Learning/Hyperparameter Tuning.md",
-    "AI-ML/CNN/Padding.md",
     "AI-ML/CNN/ResNet.md",
-    "AI-ML/CNN/SqueezeNet.md",
-    "AI-ML/CNN/InceptionNet (GoogleNet).md",
-    "AI-ML/CNN/AlexNet.md",
-    "AI-ML/CNN/LeNet.md",
+    "AI-ML/Deep Learning/Vanishing & Exploding Gradient Problem.md",
+    "AI-ML/Deep Learning/Learning Rate Decay.md",
+    "Images/opencv",
+    "Images/opencv",
+    "AI-ML/Image Processing",
+    "AI-ML/Image Processing",
+    "AI-ML/CNN/Fast R-CNN",
     "Image Processing",
     "AI-ML/Sequence Neural Network",
     "Linear Algebra",
-    "Statistics & Probability",
-    "AI-ML/General"
+    "Statistics & Probability"
   ]
 }

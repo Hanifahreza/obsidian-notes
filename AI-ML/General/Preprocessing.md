@@ -1,7 +1,7 @@
 ## Solutions
 ### Missing Value / Outliers
 - Discard rows with missing values or outliers out
-- Infer the missing value from neighboring data ([[Data Amputation]])
+- Infer the missing value from neighboring data ([[Data Imputation]])
 - Fill/change with a zero/constant
 - Fill with mode for categorical data
 ### Data Noise 
