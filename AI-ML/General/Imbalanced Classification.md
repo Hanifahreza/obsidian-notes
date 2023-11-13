@@ -24,8 +24,8 @@
 - Help skewed distributions for algorithms that
 	- Iteratively learn coefficients
 		- e.g. NN+[[Gradient Descent#Stochastic Gradient Descent|SGD]]
-- Seek good splits
-	- e.g. [[Support Vector Machine (SVM)|SVM]], [[Decision Tree]]
+	- Seek good splits
+		- e.g. [[Support Vector Machine (SVM)|SVM]], [[Decision Tree]]
 - **Monitor its performance** on **both train and testing** datasets to compare is a good idea
 ### Synthetic Minority Oversampling Technique (SMOTE)
 - Synthesize new samples by:

@@ -5,7 +5,5 @@
 - This will solve the attention problem
 ![[why-pad.png]]
 - There are two types of convolution w.r.t padding:
-	- Valid Convolution: 
-	  Basically convolution with no padding
-	- Same Convolution: 
-	  Making the output size the same as the input size with padding
+	- **Valid Convolution**:  Basically convolution with no padding
+	- **Same Convolution**: Making the output size the same as the input size with padding

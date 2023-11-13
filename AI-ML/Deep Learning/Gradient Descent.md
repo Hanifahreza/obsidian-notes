@@ -24,8 +24,8 @@ $$
    - Memory intensive since all the data must be stored in RAM
 ## Stochastic Gradient Descent (SGD)
 ![[sgd illus.png]]
-- Include only one sample for calculating loss
-$$L = y_i-\hat{y_i}$$
+- Include only one sample for calculating loss $$L = y_i-\hat{y_i}$$
+- After a single sample, the weight is immediately updated
 ### Pros
    - Faster convergence
    - Memory efficient

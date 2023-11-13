@@ -55,7 +55,7 @@
 	- Update $w$ with:
 	$$w_t = w_{t-1} - \eta_t v_t$$
 ### Pros
-- Computationally efficiet
+- Computationally efficient
 - Little memory cost
 - It's the SoTA along with AdamW
 ## AdamW

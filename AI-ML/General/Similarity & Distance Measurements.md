@@ -9,15 +9,15 @@ $$ C(A, B) = \frac{A \cdot B}{\|A\| \cdot \|B\|} = \frac{\sum_{i=1}^nA_iB_i}{\sq
 - Often used for text or word embedding
 ## Distance
 ### Minkowski
-$$M(A, B) = (\sum_{i=1}^{n} |A_i - B_i|^p)^{\frac{1}{p}}$$
+$$D_p(A, B) = (\sum_{i=1}^{n} |A_i - B_i|^p)^{\frac{1}{p}}$$
 ![[chebyshev.png]]
 #### Manhattan
 - When $p = 1$
-$$M(A, B) = \sum_{i=1}^{n} |A_i - B_i|$$
+$$D_1(A, B) = \sum_{i=1}^{n} |A_i - B_i|$$
 - Less sensitive to outliers  
 #### Euclidean
 - When $p = 2$
-$$E(A, B) = \sqrt{\sum_{i=1}^{n}(A_i - B_i)^2}$$
+$$D_2(A, B) = \sqrt{\sum_{i=1}^{n}(A_i - B_i)^2}$$
 #### Chebyshev
 - When $p = \infty$
 $$D_{\infty}(A,B) = max_i |A_i - B_i|$$

@@ -24,8 +24,9 @@
 ![[resnet bottleneck.png]]
 - Bottleneck layers are introduced to reduce computational complexity like in [[InceptionNet (GoogleNet)]]
 - These layers use 1x1 convolutions to reduce the number of channels before applying 3x3 convolutions
+- Typically followed by a batch normalization layer and ReLU activation 
 ## Innovations
-- Skip connections address the [[Vanishing & Exploding Gradient Problem#Vanishing Gradient|vanishing gradient]] problem by providing a direct path for gradients to flow backward, enabling the training of very deep networks
+- Skip connections and bottleneck layers address the [[Vanishing & Exploding Gradient Problem#Vanishing Gradient|vanishing gradient]] problem by providing a direct path for gradients to flow backward, enabling the training of very deep networks
 ## Performance
 - **ImageNet Challenge:** ResNet achieved top performance in the ImageNet Large Scale Visual Recognition Challenge. It significantly reduced the top-5 error rate, making it the leading architecture in image classification.
 - **Baseline Model**: It has now become the standard when we need to use a relatively simple and light model for CV tasks

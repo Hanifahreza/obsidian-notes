@@ -36,7 +36,7 @@
 - The architecture **minimizes latency**, which is crucial for responsive applications, such as augmented reality and mobile vision
 ## Performance
 - **Object Classification:** MobileNet has demonstrated strong performance in object classification tasks, often achieving accuracy similar to larger models with a fraction of the parameters.
-- **Object Detection:** MobileNet-based architectures are commonly used in object detection tasks, such as Single Shot MultiBox Detector (SSD) and [[YOLO]], due to their speed and accuracy trade-offs.
+- **Object Detection:** MobileNet-based architectures are commonly used in object detection tasks, such as [[SSD]] and [[YOLO]], due to their speed and accuracy trade-offs.
 ## Limitations
 - **Complex Tasks:** While efficient, MobileNet models may not perform as well as larger architectures on highly complex tasks due to their reduced capacity
 - **Trade-off:** Achieving efficiency often involves a trade-off with accuracy, and MobileNet is optimized for efficiency

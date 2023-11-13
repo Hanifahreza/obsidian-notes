@@ -4,11 +4,13 @@
 - With the input dimension $n$ x $n$ and kernel dimension $f$ x $f$, the output will have a dimension of $(n-f+1)$ x $(n-f+1)$ 
 - However, there are some problems with this operation alone that must be solved with [[Padding]]
 - We can also make this operation faster with [[Pooling]]
-- The output of these operations will be put into [[Fully Connected Layers]]
-- We add [[Activation Function]] to introduce non-linearity after a convolution layer
+- The output of these operations will is the **feature map** of the image input
+- The output will be fed into [[Fully Connected Layers]]
+- We add an [[Activation Function]] to introduce non-linearity after a convolution layer
 ## Stride
 - It's actually not necessary for the kernel sliding window to only move by 1 pixel at a time
 - We can configure how many pixels to slide with **Stride**
+- Larger stride means smaller output size and vice-versa
 ## Translation Equivariance
 - Convolution satisfies **translation equivariance** because it preserves information about the location of input features
 - This means, if **translation** is done onto the **input**, the **output** will also **translates the same way**

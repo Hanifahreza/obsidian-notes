@@ -7,7 +7,7 @@
 - It's usually placed before or after an activation layer
 ## Batch Normalization Layer
 ![[batchnorm layer inside.png]]
-- The layer inputs are the outputs of the neurons in the previous layer
+- This layer's inputs are the outputs of the neurons in the previous layer
 - It standardize each input with the formula:
 - $$
   \hat{x}_i = \frac{x_i - \mu}{\sqrt{\sigma^2 + \epsilon}}
@@ -20,7 +20,7 @@ $$
 - These parameters are used to scale and shift the normalized activations,
 	- This allows the network to learn the optimal scale and bias for each feature
   $$
-  y_i = \gamma \hat{x}_i + \beta
+  y_i = \gamma \odot \hat{x}_i + \beta
   $$
   - It also keeps track of the moving average of the mean and variance with
   $$

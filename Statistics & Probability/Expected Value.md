@@ -1,9 +1,7 @@
 - The expected value that represents the long-term average or the center of a probability distribution
 - The formula is:
-	- For discrete events
-		- $\mathbb{E}(X) = \sum_{1}^n x_i \cdot P(X = x_i)$
-	- For continuous events
-		- $\mathbb{E}(X) = \int_{-\infty}^{\infty} x \cdot f(x) \, dx$
+	- For discrete events $$\mathbb{E}(X) = \sum_{1}^n x_i \cdot P(X = x_i)$$
+	- For continuous events $$\mathbb{E}(X) = \int_{-\infty}^{\infty} x \cdot f(x) \, dx$$
 - Expected value provides a measure of the "central tendency" of a random variable
 - Used for 
 	- Decision-making 

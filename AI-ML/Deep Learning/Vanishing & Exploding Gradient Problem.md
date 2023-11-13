@@ -12,7 +12,7 @@
 - Huge gradient will lead to unstable learning that makes convergence hard 
 ## Solutions
 - Use **dropout layer**:
-	- Randomly deactivate $p$ x number_of_neurons with $0 <= p <= 1$ 
+	- Randomly deactivate $p$ x `number_of_neurons` with $0 <= p <= 1$ 
 	- Adds noise that can also act as regularization method
 	- During inference, all neurons will be activated
 - Use gradient clipping by cutting the value of gradient $g$ $$g' = g \cdot \min(1, \frac{c}{||g||})$$
