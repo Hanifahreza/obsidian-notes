@@ -3,8 +3,7 @@
 ## Multinomial Naive Bayes
 - It's Naive Bayes done to a data with [[Multinomial Distribution]]
 - Usually used for text data with features corresponding to word counts
-- The prediction of an input is [[Maximum Log-Likelihood|the most likely class given the data]]
-	- $\hat{y} = \arg\max_{y} P(y) \prod_{i} P(x_i | y)$
+- The prediction of an input is [[Maximum Log-Likelihood|the most likely class given the data]] $$\hat{y} = \arg\max_{y} P(y) \prod_{i} P(x_i | y)$$
 		- $\hat{y}$ is predicted class
 		- $y$ is the ground truth class
 		- $x_i$ is individual feature (i.e. word in a sentence)
@@ -12,9 +11,8 @@
 	- **Laplace smoothing**: To prevent this, add 1 to all word count 
 ## Gaussian Naive Bayes
 - It's Naive Bayes done to a data with [[Normal Distribution]]
-- Prediction is made by finding the class with the highest posterior probability using Bayes' theorem: 
-	- $\hat{y} = \arg\max_{y} P(y) \prod_{i} P(x_i | y)$ 
-		- $(P(x_i | y)$ is the probability of feature $x_i$ given class $y$ and is modeled as a Gaussian distribution.
+- Prediction is made by finding the class with the highest posterior probability using Bayes' theorem: $$\hat{y} = \arg\max_{y} P(y) \prod_{i} P(x_i | y)$$
+	- $(P(x_i | y)$ is the probability of feature $x_i$ given class $y$ and is modeled as a Gaussian distribution.
 ## Pros
 - Computationally efficient  
 - can handle high-dimensional data with many features

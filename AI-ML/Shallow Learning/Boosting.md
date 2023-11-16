@@ -8,12 +8,13 @@
 - Create a tree using the technique in [[Decision Tree]] which consists of only a root node and two children (nothing more)
 	![[stump.png]]
 - Total Error ($TE$) of the tree is the sum of the sample weight of all wrongly classified samples
-- Create a new variable called $\delta$ $$\delta = \frac{1}{2}\log(\frac{1-TE}{TE})$$
-- For all samples that are not correctly classified: #$w_i' = w_ie^\delta$#
-- For all samples that are correctly classified: $$w_i' = w_ie^{-\delta}$$
+- Create a new variable called $\delta$ (amount of say the tree will have for the final decision)$$\delta = \frac{1}{2}\log(\frac{1-TE}{TE})$$
+- Update the sample weights
+	- For all samples that are not correctly classified: $$w_i' = w_ie^\delta$$
+	- For all samples that are correctly classified: $$w_i' = w_ie^{-\delta}$$
 - Normalize so all $w'$ add up to $1$
-- Create another tree but with  $$\text{Weighted Gini} = 1 - \sum_{i=1}^{n} w_i P(x_i)^2$$
-- Repeat making tree with the new $w$ until the `max_tree` is reached
+- Create the next tree with **weighted gini** as the basis using [[Decision Tree]] technique $$\text{Weighted Gini} = 1 - \sum_{i=1}^{n} w_i P(x_i)^2$$
+- Repeat making trees with the new $w$ until the `max_tree` is reached
 ### Predict
 - Compare the sum of all $\delta$ of trees in each class
 - For example: 
@@ -34,8 +35,8 @@
 - Repeat making tree with the new $y'$ until the `max_tree` is reached OR there's no improvement in the residuals
 #### Predict
 - The output is at first the initial average of target feature
-- Insert the input to all of the trees to predict the residuals
-- The prediction is the sum of the initial average with all of the predicted residuals from all trees
+- Insert the input to all of the trees to predict the `residuals`
+- The prediction is the sum of the initial average with all of the predicted `residuals` from all trees
 ### Classification
 #### Training
 - Create a single leaf with the [[Odds & Logits#Logit|Logit Function]] $log(\text{odds}) = log(n_{yes}/n_{no})$ as the initial prediction value $y$ for all samples
@@ -139,7 +140,7 @@
 	- $g_{left}$ is the gain when the missing features row's residuals are put into the left child
 	- $g_{right}$ is the gain when the missing features row's residuals are put into the right child
 	 - Pick the best $g$ and move on as usual
-## Catboost
+## CatBoost
 - Initialize the predictions for all rows as $0$
 - Calculate the residuals of all rows
 - Use [[Categorical Encoding#Catboost (Ordered Target) Encoding|Ordered Target Encoding]] to encode the categorical features

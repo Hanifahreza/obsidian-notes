@@ -5,14 +5,14 @@
   - To separate them, we use kernel trick in which we bring the samples to a higher dimension
   - To save computation cost, instead of transforming it directly to higher dimension, we only need to know the dot product in the higher dimension using **kernel function**
   - The output of the kernels are real number that act as the **dot product** of two data points
-## Linear kernel: 
-- $K(x_i, x_j) = x_i^T x_j$
+## Linear kernel
+$$K(x_i, x_j) = x_i^T x_j$$
 ### Pros
 - Simple
 ### Cons
 - Can't perform well in non-linear boundary
-## Polynomial kernel: 
-- $K(x_i, x_j) = (\gamma \langle x_i, x_j \rangle + r)^d$
+## Polynomial kernel
+- $$K(x_i, x_j) = (\gamma \langle x_i, x_j \rangle + r)^d$$
 	- $\gamma$ is the coefficient of the kernel
 	- $d$ is the value of the desired higher dimension
 	- $r$ is bias
@@ -22,8 +22,8 @@
 - Can adjust the degree to balance over and underfitting
 ### Cons:
 - Sensitive to degree hyperparameter
-## RBF kernel: 
-- $K(x_i, x_j) = \exp(-\gamma * ||x - y||^2))$
+## RBF kernel:
+- $$K(x_i, x_j) = \exp(-\gamma * ||x - y||^2))$$
 	- $\gamma$ is positive scaling hyperparameter
 ### Pros:
 - Can perform well in non-linear boundary
@@ -33,7 +33,7 @@
 - Quite complex and computationally expensive
 - Needs hyperparameter tuning, especially for gamma
 ## Sigmoid kernel:
-- $K(x_i, x_j) = \tanh(\alpha x^Ty + c)$
+- $$K(x_i, x_j) = \tanh(\alpha x^Ty + c)$$
 	- $\alpha$ is scaling hyperparameter
 	- $c$ is a constant hyperparameter
 ### Pros:

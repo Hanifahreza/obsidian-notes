@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics & Probability/Odds & Logits.md",
+                "file": "AI-ML/Shallow Learning/Bagging.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "begin",
+                "query": "baggin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics & Probability/Odds & Logits.md",
+                "file": "AI-ML/Shallow Learning/Bagging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics & Probability/Odds & Logits.md",
+                "file": "AI-ML/Shallow Learning/Bagging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics & Probability/Odds & Logits.md"
+                "file": "AI-ML/Shallow Learning/Bagging.md"
               }
             }
           },
@@ -158,6 +159,23 @@
   },
   "active": "d4fd5b671461f2b2",
   "lastOpenFiles": [
+    "AI-ML/General/Evaluation Methods.md",
+    "AI-ML/Shallow Learning/Clustering.md",
+    "AI-ML/Shallow Learning/Kernel Trick.md",
+    "AI-ML/Shallow Learning/Bagging.md",
+    "AI-ML/Shallow Learning/Boosting.md",
+    "AI-ML/Shallow Learning/Decision Tree.md",
+    "AI-ML/Shallow Learning/Naive Bayes.md",
+    "AI-ML/Shallow Learning/Logistic Regression.md",
+    "AI-ML/Shallow Learning/Linear Regression.md",
+    "AI-ML/Shallow Learning/Support Vector Machine (SVM).md",
+    "AI-ML/Shallow Learning/Random Forest.md",
+    "AI-ML/General/Entropy.md",
+    "AI-ML/Shallow Learning/Dimension Reduction.md",
+    "AI-ML/Shallow Learning/K-Modes.md",
+    "AI-ML/Shallow Learning/K-Nearest Neighbors (KNN).md",
+    "AI-ML/Deep Learning/Gradient Descent.md",
+    "Statistics & Probability/Odds & Logits.md",
     "Statistics & Probability/Normal Distribution.md",
     "Statistics & Probability/Multinomial Distribution.md",
     "Statistics & Probability/Likelihood.md",
@@ -167,23 +185,6 @@
     "Statistics & Probability/Bayes Theorem.md",
     "AI-ML/Sequence Neural Network/Transformer.md",
     "AI-ML/Sequence Neural Network/Seq2Seq.md",
-    "AI-ML/Sequence Neural Network/GRU.md",
-    "AI-ML/Sequence Neural Network/LSTM.md",
-    "AI-ML/Sequence Neural Network/RNN.md",
-    "AI-ML/Sequence Neural Network/ViT.md",
-    "AI-ML/Image Processing/OpenCV.md",
-    "AI-ML/CNN/YOLO.md",
-    "AI-ML/CNN/Faster R-CNN.md",
-    "AI-ML/CNN/InceptionNet (GoogleNet).md",
-    "AI-ML/CNN/MobileNet.md",
-    "AI-ML/CNN/ResNet.md",
-    "AI-ML/CNN/VGGNet.md",
-    "AI-ML/CNN/Pooling.md",
-    "AI-ML/CNN/Padding.md",
-    "AI-ML/CNN/Convolution Operation.md",
-    "AI-ML/CNN/EfficientNet.md",
-    "AI-ML/CNN/DenseNet.md",
-    "AI-ML/Deep Learning/Weight Initialization.md",
     "Images/best-path-decod.png",
     "Images/ctc loss.png",
     "Images/ctc problem.png",
