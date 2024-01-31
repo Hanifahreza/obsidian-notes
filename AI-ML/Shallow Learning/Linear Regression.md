@@ -7,5 +7,5 @@
 	- $b$ is bias
 	- $f_{w,b}(x)$ means $f$ is parameterized by parameter $w$ and $b$
 - To build the model, we must find the optimal parameters, i.e, $w$ and $b$
-- To find the optimal model, we must have $w$ and $b$ such that the MSE loss function is minimal: $$\arg\min_{w, b} L(f_{w,b}(x), y) = \arg\min_{w, b}\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
-- We can use [[Gradient Descent]] to find the optimal $w$ and $b$ 
+- To find the optimal model, we must have $w$ and $b$ such that the MSE loss function is minimal: $$\arg\min_{w, b} L(f_{w,b}(x), y) = \arg\min_{w, b}\frac{1}{n} \sum_{i=1}^{n} (y_i - wx + b)^2$$
+- We can use [[Least Square]] or [[Gradient Descent]] method to find the optimal $w$ and $b$ 
