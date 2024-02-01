@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-ML/Shallow Learning/Support Vector Machine (SVM).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5089b7f72159c923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI-ML/Shallow Learning/Kernel Trick.md",
+                "file": "AI-ML/Sequence Neural Network/BERT.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI-ML/Shallow Learning/Support Vector Machine (SVM).md",
+                "file": "AI-ML/Sequence Neural Network/BERT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI-ML/Shallow Learning/Support Vector Machine (SVM).md",
+                "file": "AI-ML/Sequence Neural Network/BERT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI-ML/Shallow Learning/Support Vector Machine (SVM).md"
+                "file": "AI-ML/Sequence Neural Network/BERT.md"
               }
             }
           },
@@ -170,32 +158,32 @@
   },
   "active": "d4fd5b671461f2b2",
   "lastOpenFiles": [
-    "AI-ML/Shallow Learning/Linear Regression.md",
-    "AI-ML/Shallow Learning/Support Vector Machine (SVM).md",
-    "AI-ML/Shallow Learning/Random Forest.md",
-    "AI-ML/Shallow Learning/Kernel Trick.md",
-    "AI-ML/Shallow Learning/Naive Bayes.md",
-    "AI-ML/CNN/InceptionNet (GoogleNet).md",
-    "AI-ML/CNN/YOLO.md",
-    "AI-ML/CNN/Convolution Operation.md",
-    "AI-ML/General/Maximum Log-Likelihood.md",
-    "Statistics & Probability/Multinomial Distribution.md",
-    "Statistics & Probability/Bayes Theorem.md",
-    "AI-ML/Shallow Learning/Logistic Regression.md",
-    "Statistics & Probability/Likelihood.md",
-    "AI-ML/Shallow Learning/Bagging.md",
-    "AI-ML/General/Evaluation Methods.md",
-    "AI-ML/Shallow Learning/Clustering.md",
-    "AI-ML/Shallow Learning/Boosting.md",
-    "AI-ML/Shallow Learning/Decision Tree.md",
-    "AI-ML/General/Entropy.md",
-    "AI-ML/Shallow Learning/Dimension Reduction.md",
-    "AI-ML/Shallow Learning/K-Modes.md",
-    "AI-ML/Shallow Learning/K-Nearest Neighbors (KNN).md",
+    "AI-ML/Sequence Neural Network/Transformer.md",
+    "AI-ML/Sequence Neural Network/Attention.md",
+    "AI-ML/Sequence Neural Network/Deep RNN.md",
+    "AI-ML/Sequence Neural Network/RNN.md",
+    "AI-ML/Deep Learning/Weight Initialization.md",
+    "AI-ML/Deep Learning/Activation Function.md",
+    "AI-ML/Deep Learning/Vanishing & Exploding Gradient Problem.md",
+    "AI-ML/Deep Learning/Quantization.md",
+    "AI-ML/Deep Learning/Optimizers.md",
+    "AI-ML/Deep Learning/Multi-Layer Perceptron (MLP).md",
+    "AI-ML/Deep Learning/Learning Rate Decay.md",
+    "AI-ML/Deep Learning/Hyperparameter Tuning.md",
     "AI-ML/Deep Learning/Gradient Descent.md",
-    "Statistics & Probability/Odds & Logits.md",
-    "Statistics & Probability/Normal Distribution.md",
-    "Statistics & Probability/Hypothesis Testing.md",
+    "AI-ML/Deep Learning/Forward Propagation.md",
+    "AI-ML/Deep Learning/Few-Shot Learning.md",
+    "AI-ML/Deep Learning/Connectionist Temporal Classification (CTC).md",
+    "AI-ML/Deep Learning/Batch Normalization.md",
+    "AI-ML/General/Preprocessing.md",
+    "AI-ML/Deep Learning/Back Propagation.md",
+    "AI-ML/CNN/Fully Connected Layers.md",
+    "AI-ML/CNN/InceptionNet (GoogleNet).md",
+    "AI-ML/CNN/Convolution Operation.md",
+    "AI-ML/CNN/YOLO.md",
+    "AI-ML/CNN/VGGNet.md",
+    "AI-ML/CNN/R-CNN.md",
+    "AI-ML/CNN/Fast R-CNN.md",
     "Images/best-path-decod.png",
     "Images/ctc loss.png",
     "Images/ctc problem.png",
